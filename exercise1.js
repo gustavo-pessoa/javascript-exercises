@@ -9,3 +9,4 @@ function salutation(text) {
 }
 
 console.log(salutation("Leonardo"))
+
