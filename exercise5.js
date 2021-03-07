@@ -4,4 +4,4 @@ function compareNumbers(firstNumber, secondNumber) {
     return firstNumber >= secondNumber
 }
 
-console.log(compareNumbers(5,1))
+console.log(compareNumbers(5,1))    
