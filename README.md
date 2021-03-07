@@ -1,2 +1,1 @@
 # javascript exercises
- javascript exercises
