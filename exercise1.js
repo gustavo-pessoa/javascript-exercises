@@ -5,8 +5,7 @@ exclamação "!" no final
 */ 
 
 function salutation(text) {
-    return ("Olá, " + text + "!")
+    return `Olá, ${text}!`
 }
 
 console.log(salutation("Leonardo"))
-
