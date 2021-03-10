@@ -12,14 +12,16 @@ Retornará false se o objeto não for o mesmo.
 function removerPropriedade(obj, prop){
     const newObj = {...obj}
     delete newObj[prop];
-    console.log(newObj);
+    return newObj;
 }
 
 
-removerPropriedade({a: 1, b: 2}, "a") // retornará {b: 2}
+console.log(removerPropriedade({a: 1, b: 2}, "a")) // retornará {b: 2}
 
-removerPropriedade({
-id: 20,
-nome: "caneta",
-descricao: "Não preenchido"
-}, "descricao") // retornará {id: 20, nome: "caneta"}
+console.log(
+    removerPropriedade({
+        id: 20,
+        nome: "caneta",
+        descricao: "Não preenchido"
+        }, "descricao") // retornará {id: 20, nome: "caneta"}
+)
