@@ -8,10 +8,10 @@ retorna se ele é bissexto ou não.
 function checkLeapYear(year){
     return (
         year % 4 === 0 && 
-        (year % 100 !== 0 || (year % 100 === 0 && year % 400 === 0))
+        (year % 100 !== 0 || 
+        (year % 100 === 0 && year % 400 === 0))
     )
 }
 
 console.log(checkLeapYear(2020)) // retornará true)
-
 console.log(checkLeapYear(2100)) // retornará false, pois é múltiplo de 100 e não é múltiplo de 400
